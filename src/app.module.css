@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200&family=Fira+Sans:wght@300&family=Inter&family=Merriweather&family=Open+Sans:ital,wght@1,500&family=Poppins:wght@300&family=Roboto+Condensed:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    background: rgb(50, 194, 50);
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar .left {
+    width: 20%;
+    height: auto;
+    top: 14px;
+    position: relative;
+    left: 8px;
+
+}
+.navbar .left a {
+    width: 40px;
+    border-radius: 20px;
+}
+.navbar .left a img {
+    width: 75px;
+    border-radius: 50px;
+}
+.navbar .right {
+    width: 50%;
+}
+.navbar .right ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+.navbar .right ul li {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 3%;
+}
+.navbar .right ul > .btn {
+    font-size: 25px;
+    background: rgb(251, 254, 52);
+    border-radius: 25px;
+    width: 15%;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+.middle {
+    width: 100%;
+    height: 50vh;
+    border: 1px solid red;
+    text-align: center;
+}
